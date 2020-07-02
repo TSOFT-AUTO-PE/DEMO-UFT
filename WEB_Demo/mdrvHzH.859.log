@@ -1,0 +1,41 @@
+Warning (-17893): Unknown script language	[MsgId: MWAR-17893]
+Virtual User Script started at: 04/04/2019 13:43:59	[MsgId: MMSG-15967]
+Running Vuser...	[MsgId: MMSG-15964]
+Scenario: Recupera1
+Defined in: Recupera1.qrs
+Loading failed with error: Scenario is not found.	[MsgId: MMSG-23001]
+Starting iteration 1.	[MsgId: MMSG-15968]
+Starting action Bucle.	[MsgId: MMSG-15919]
+Starting action 1_LoginWeb.	[MsgId: MMSG-15919]
+SystemUtil	[MsgId: MMSG-23001]
+Run "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",1	[MsgId: MMSG-23001]
+Browser("Welcome: Mercury Tours").Page("Welcome: Mercury Tours").WebEdit("userName"). Cannot find the "userName" object's parent "Welcome: Mercury Tours" (class Browser).
+Verify that parent properties match an object currently displayed in your application.	[MsgId: MMSG-23001]
+Browser("Welcome: Mercury Tours").Page("Welcome: Mercury Tours").WebEdit("userName"). Object's physical description:
+Mercury Class = Browser
+CreationTime = 0
+|Title = Welcome: Mercury Tours
+openurl = http://newtours.demoaut.com
+opentitle = Welcome: Mercury Tours
+Opened By Testing Tool = 0
+number of tabs = 1
+Name = Welcome: Mercury Tours
+	[MsgId: MMSG-23001]
+Error:  Browser("Welcome: Mercury Tours").Page("Welcome: Mercury Tours").WebEdit("userName") - Object's physical description:
+Mercury Class = Browser
+CreationTime = 0
+|Title = Welcome: Mercury Tours
+openurl = http://newtours.demoaut.com
+opentitle = Welcome: Mercury Tours
+Opened By Testing Tool = 0
+number of tabs = 1
+Name = Welcome: Mercury Tours
+	[MsgId: MERR-23001]
+Error:  Line(30): Browser("Welcome: Mercury Tours") - Cannot find the "userName" object's parent "Welcome: Mercury Tours" (class Browser).
+Verify that parent properties match an object currently displayed in your application.	[MsgId: MERR-23001]
+Ending action 1_LoginWeb.	[MsgId: MMSG-15918]
+Ending action Bucle.	[MsgId: MMSG-15918]
+Ending iteration 1.	[MsgId: MMSG-15965]
+Ending Vuser...	[MsgId: MMSG-15966]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Vuser 0 (thread 2404), ended OK."	[MsgId: MMSG-10695]
